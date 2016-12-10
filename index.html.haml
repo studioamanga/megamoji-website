@@ -1,0 +1,68 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %title Mega Moji for iPhone and iPad
+    %link{:rel => "stylesheet",    :href => "style.css?re", :type => "text/css"}
+    %link{:rel => "shortcut icon", :href => "http://www.studioamanga.com/img/favicon.ico"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "../img/touch-icon-iphone4.png"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "../img/touch-icon-ipad.png", :sizes => "72x72"}
+    %meta{:name => "description",      :content => "THE BIGGEST EMOJI ~~EVER~~"}
+    %meta{:name => "viewport",         :content => "width=device-width"}
+    %meta{:name => "apple-itunes-app", :content => "app-id=1152321201"}
+  %body
+    %nav.general
+      %ul
+        %li
+          %a{:href => "http://www.studioamanga.com/"}
+            %img{:alt => "StdAMG", :src => "img/icon-amg.png"}
+            %span Studio AMANgA
+        %li
+          %a{:href => "http://www.studioamanga.com/contacts/"}
+            %img{:alt => "Contacts", :src => "img/icon-contacts.png"}
+            %span Contact[s]
+        %li
+          %a{:href => "http://www.studioamanga.com/onelist/"}
+            %img{:alt => "1List", :src => "img/icon-onelist.png"}
+            %span 1List
+        %li
+          %a{:href => "http://www.studioamanga.com/comicbookday/"}
+            %img{:alt => "Comic Book Day", :src => "img/icon-comicbookday.png"}
+            %span Comic Book Day
+
+    %header.top.cropped-bottom
+      %div.title
+        %img.icon{:alt => "Icon", :src => "img/icon-72-2x.png"}
+        %h1 Mega Moji《メガ・モジ》
+      %div
+        %img.showcase{:alt => "Screens", :src => "img/screens.png"}
+
+    %section.main
+      %div.tagline
+        THE BIGGEST EMOJI ~~EVER~~
+        %br
+        With Mega Moji, you can send giant Emoji Stickers directly from iMessage.
+
+      %p.download
+        %a{:href => "https://itunes.apple.com/app/mega-moji-emoji-stickers/id1152321201?mt=8"}
+          %img{:alt => "Download on the App Store", :src => "img/download-appstore.svg"}/
+
+    %footer
+      %a{:href => "http://www.studioamanga.com"}
+        %img{:alt => "StdAMG", :src => "img/amgmini-black.png"}/
+      %p
+        “Mega Moji” for iPhone, iPad, and iPod touch
+        %br
+        %a{:href => "releasenotes"} Release Notes
+        %br
+        Made by Studio AMANgA 2016
+    
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18279263-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
